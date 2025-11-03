@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falah's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Floating Particles -->
+    <div class="particle" style="left: 10%; animation-delay: 0s"></div>
+    <div class="particle" style="left: 20%; animation-delay: 3s"></div>
+    <div class="particle" style="left: 30%; animation-delay: 6s"></div>
+    <div class="particle" style="left: 40%; animation-delay: 9s"></div>
+    <div class="particle" style="left: 50%; animation-delay: 12s"></div>
+    <div class="particle" style="left: 60%; animation-delay: 15s"></div>
+    <div class="particle" style="left: 70%; animation-delay: 1s"></div>
+    <div class="particle" style="left: 80%; animation-delay: 4s"></div>
+    <div class="particle" style="left: 90%; animation-delay: 7s"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <div class="logo-icon"></div>
+          Falah Asyraf
+          <span class="status-badge">
+            <span class="status-dot"></span>
+            Web-App Full Stack
+          </span>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Developing Modern Web Apps for the Future</h1>
+          <p class="subtitle">
+            I design and build innovative, user-focused web applications with
+            clean architecture and scalable performance.
+          </p>
+          <a href="#contact" class="cta-button">Take A Tour</a>
+        </div>
+        <div class="hero-image">
+          <div class="image-frame">
+            <img
+              src="assets/2025-10-31 13.29.24.jpg"
+              alt="Developer Portrait"
+            />
+          </div>
+          <div class="floating-card floating-card-1">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem">🚀</div>
+            <div style="font-weight: 600">Fast Performance</div>
+          </div>
+          <div class="floating-card floating-card-2">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem">✨</div>
+            <div style="font-weight: 600">Clean Code</div>
+          </div>
+        </div>
+      </div>
+      <div class="section-indicator">
+        <p
+          style="
+            color: var(--text-gray);
+            font-size: 0.75rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          "
+        >
+          INTRO
+        </p>
+        <div class="indicator-dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <div class="skills-grid">
+        <!-- Flutter -->
+        <div class="skill-card">
+          <div class="skill-progress">
+            <svg class="progress-circle" width="120" height="120">
+              <defs>
+                <linearGradient
+                  id="gradient1"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style="stop-color: #4f46e5; stop-opacity: 1"
+                  />
+                  <stop
+                    offset="100%"
+                    style="stop-color: #22d3ee; stop-opacity: 1"
+                  />
+                </linearGradient>
+              </defs>
+              <circle class="progress-bg" cx="60" cy="60" r="45"></circle>
+              <circle
+                class="progress-bar"
+                cx="60"
+                cy="60"
+                r="45"
+                style="stroke-dashoffset: 71"
+              ></circle>
+            </svg>
+            <div class="progress-text">80%</div>
+          </div>
+          <h3>Flutter</h3>
+          <p>
+            Experienced in building responsive and cross-platform mobile apps
+            with clean UI, state management (Bloc/GetX), and seamless API
+            integration.
+          </p>
+        </div>
+
+        <!-- Python (Machine Learning) -->
+        <div class="skill-card">
+          <div class="skill-progress">
+            <svg class="progress-circle" width="120" height="120">
+              <defs>
+                <linearGradient
+                  id="gradient2"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style="stop-color: #4f46e5; stop-opacity: 1"
+                  />
+                  <stop
+                    offset="100%"
+                    style="stop-color: #22d3ee; stop-opacity: 1"
+                  />
+                </linearGradient>
+              </defs>
+              <circle class="progress-bg" cx="60" cy="60" r="45"></circle>
+              <circle
+                class="progress-bar"
+                cx="60"
+                cy="60"
+                r="45"
+                style="stroke-dashoffset: 78"
+              ></circle>
+            </svg>
+            <div class="progress-text">75%</div>
+          </div>
+          <h3>Python (Machine Learning)</h3>
+          <p>
+            Skilled in data preprocessing, model development, and deep learning
+            using PyTorch and TensorFlow. Experienced in computer vision and
+            medical image segmentation research.
+          </p>
+        </div>
+
+        <!-- Go (Backend) -->
+        <div class="skill-card">
+          <div class="skill-progress">
+            <svg class="progress-circle" width="120" height="120">
+              <defs>
+                <linearGradient
+                  id="gradient3"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style="stop-color: #4f46e5; stop-opacity: 1"
+                  />
+                  <stop
+                    offset="100%"
+                    style="stop-color: #22d3ee; stop-opacity: 1"
+                  />
+                </linearGradient>
+              </defs>
+              <circle class="progress-bg" cx="60" cy="60" r="45"></circle>
+              <circle
+                class="progress-bar"
+                cx="60"
+                cy="60"
+                r="45"
+                style="stroke-dashoffset: 56"
+              ></circle>
+            </svg>
+            <div class="progress-text">85%</div>
+          </div>
+          <h3>Go (Backend)</h3>
+          <p>
+            Developing scalable RESTful APIs using Fiber, GORM, and PostgreSQL.
+            Focused on performance, clean architecture, and secure
+            authentication.
+          </p>
+        </div>
+
+        <!-- Laravel -->
+        <div class="skill-card">
+          <div class="skill-progress">
+            <svg class="progress-circle" width="120" height="120">
+              <defs>
+                <linearGradient
+                  id="gradient4"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style="stop-color: #4f46e5; stop-opacity: 1"
+                  />
+                  <stop
+                    offset="100%"
+                    style="stop-color: #22d3ee; stop-opacity: 1"
+                  />
+                </linearGradient>
+              </defs>
+              <circle class="progress-bg" cx="60" cy="60" r="45"></circle>
+              <circle
+                class="progress-bar"
+                cx="60"
+                cy="60"
+                r="45"
+                style="stroke-dashoffset: 64"
+              ></circle>
+            </svg>
+            <div class="progress-text">82%</div>
+          </div>
+          <h3>Laravel</h3>
+          <p>
+            Building secure and maintainable web backends using Laravel, with
+            focus on clean MVC architecture, API development, and integration
+            with MySQL or PostgreSQL databases.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="info-section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-description">
+        I'm a passionate Mobile and Backend Developer with experience building
+        scalable applications using Flutter, Go, and Laravel. I currently work
+        on internal systems at <strong>Telkom Akses</strong>, focusing on system
+        integration, clean architecture, and modern development workflows.
+        <br /><br />
+        Beyond development, I’m pursuing a Master’s degree in Informatics at
+        <strong>Telkom University</strong>, where my research explores
+        <em>AI-powered medical image segmentation</em> using deep learning. My
+        goal is to create impactful technology that bridges innovation and
+        real-world usability.
+      </p>
+      <div class="section-indicator">
+        <p
+          style="
+            color: var(--text-gray);
+            font-size: 0.75rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          "
+        >
+          About Me
+        </p>
+        <div class="indicator-dots">
+          <div class="dot"></div>
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section class="info-section">
+      <h2 class="section-title">How I Work</h2>
+      <p class="section-description">
+        My development process is centered around collaboration, creativity, and
+        delivering high-quality solutions. Here's a glimpse into how I bring
+        ideas to life:
+      </p>
+      <div class="work-process">
+        <div class="process-step">
+          <div class="process-icon">💡</div>
+          <h4>Inspiration</h4>
+          <p>Creative ideation and concept development</p>
+        </div>
+        <div class="process-step">
+          <div class="process-icon">📋</div>
+          <h4>Planning</h4>
+          <p>Strategic planning and architecture design</p>
+        </div>
+        <div class="process-step">
+          <div class="process-icon">🎨</div>
+          <h4>Prototyping</h4>
+          <p>Visual design and interactive prototypes</p>
+        </div>
+        <div class="process-step">
+          <div class="process-icon">💻</div>
+          <h4>Coding</h4>
+          <p>Clean code implementation and testing</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div style="max-width: 1400px; margin: 0 auto">
+        <h2 class="section-title" style="text-align: center">My Projects</h2>
+        <p
+          class="section-description"
+          style="text-align: center; margin: 0 auto 1rem"
+        >
+          A showcase of my open-source and academic projects — blending mobile,
+          backend, and AI.
+        </p>
+      </div>
+      <div class="projects-grid">
+        <!-- Spatium -->
+        <a
+          href="https://github.com/DeepSyyy/Spatium-Backend"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="project-image">💬</div>
+          <div class="project-content">
+            <h3>Spatium</h3>
+            <p>
+              An anonymous campus vent platform with AI-based sentiment analysis
+              and supportive chatbot responses. Built using Go, Fiber, and
+              PostgreSQL.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Go</span>
+              <span class="tag">Fiber</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">AI</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Waste Classification -->
+        <a
+          href="https://github.com/DeepSyyy/Tugas-Tren-Visi-Komputer-S2"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="project-image">♻️</div>
+          <div class="project-content">
+            <h3>Waste Classification</h3>
+            <p>
+              Deep learning model to classify recyclable and household waste
+              using MobileNetV2 with transfer learning for environmental
+              awareness applications.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">CNN</span>
+              <span class="tag">Computer Vision</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- My Traveler -->
+        <a
+          href="https://github.com/DeepSyyy/my-traveler-app"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="project-image">✈️</div>
+          <div class="project-content">
+            <h3>My Traveler</h3>
+            <p>
+              Android travel companion app that helps users plan, organize, and
+              explore destinations with a user-friendly interface and integrated
+              map services.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Kotlin</span>
+              <span class="tag">Android</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Restaurant App -->
+        <a
+          href="https://github.com/DeepSyyy/restaurant_app_bloc_clean_architecture"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="project-image">🍽️</div>
+          <div class="project-content">
+            <h3>Restaurant App</h3>
+            <p>
+              A Flutter-based restaurant discovery app implementing clean
+              architecture and BLoC pattern with integrated API for menus and
+              reviews.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">BLoC</span>
+              <span class="tag">Clean Architecture</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- GitHub Profile Searcher -->
+        <a
+          href="https://github.com/DeepSyyy/profile-search-github"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="project-image">🔍</div>
+          <div class="project-content">
+            <h3>GitHub Profile Searcher</h3>
+            <p>
+              A Kotlin Android application that lets users search and explore
+              GitHub profiles with API integration and modern UI.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Kotlin</span>
+              <span class="tag">Android</span>
+              <span class="tag">GitHub API</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Deer Diary -->
+        <a
+          href="https://github.com/DeepSyyy/deer-diary"
+          target="_blank"
+          class="project-card"
+        >
+          <div class="project-image">📖</div>
+          <div class="project-content">
+            <h3>Deer Diary</h3>
+            <p>
+              Deer Diary is an Android application developed as a submission for
+              Dicoding Indonesia and Bangkit Academy. It allows users to
+              register and log in, view a feed of stories from other users, and
+              upload new stories using images captured via the camera or
+              selected from the gallery. The app is also built with full
+              localization support.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Kotlin</span>
+              <span class="tag">Android</span>
+              <span class="tag">Google Maps</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-description">
+        I'm always open to discussing new projects, creative ideas, or
+        opportunities to be part of your vision. Let's create something amazing
+        together!
+      </p>
+      <div class="contact-methods">
+        <a href="mailto:falah.asyraf0319@gmail.com" class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h4>Email Me</h4>
+          <p>falah.asyraf0319@gmail.com</p>
+        </a>
+        <a
+          href="https://linkedin.com/in/falahasyrafdarmawanputra"
+          class="contact-card"
+          target="_blank"
+        >
+          <div class="contact-icon">💼</div>
+          <h4>LinkedIn</h4>
+          <p>Let's connect professionally</p>
+        </a>
+        <a
+          href="https://github.com/DeepSyyy"
+          class="contact-card"
+          target="_blank"
+        >
+          <div class="contact-icon">🔗</div>
+          <h4>GitHub</h4>
+          <p>Check out my repositories</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 Developer Portfolio. Crafted with passion and precision.
+      </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
